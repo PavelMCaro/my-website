@@ -1,0 +1,168 @@
+{
+  "config": {
+    "_": [
+      "dev"
+    ],
+    "typescript": false,
+    "ts": false,
+    "port": 3000,
+    "p": 3000,
+    "dest": "./.papyrum/dist",
+    "d": "./.papyrum/dist",
+    "ignore": [],
+    "i": [],
+    "title": "My website",
+    "t": "My website",
+    "static": "static",
+    "$0": "node_modules\\@papyrum\\cli\\dist\\bin.js",
+    "shorcodes": true,
+    "logo": "img/logo.svg",
+    "favicon": "img/favicon.ico",
+    "menu": [
+      "Introduction",
+      "Components"
+    ]
+  },
+  "plain": [
+    {
+      "heading": [
+        {
+          "value": "Button",
+          "slug": "button",
+          "depth": 1
+        },
+        {
+          "value": "Basic usage",
+          "slug": "basic-usage",
+          "depth": 3
+        }
+      ],
+      "filepath": "docs/Button.mdx",
+      "status": "development",
+      "menu": "Components",
+      "name": "Button",
+      "route": "/button",
+      "nameChunk": "button",
+      "path": "docs/Button.mdx"
+    },
+    {
+      "heading": [
+        {
+          "value": "Introduction",
+          "slug": "introduction",
+          "depth": 1
+        }
+      ],
+      "filepath": "docs/Introduction.mdx",
+      "route": "/",
+      "name": "Introduction",
+      "nameChunk": "introduction",
+      "path": "docs/Introduction.mdx"
+    },
+    {
+      "heading": [
+        {
+          "value": "Input",
+          "slug": "input",
+          "depth": 1
+        },
+        {
+          "value": "Basic usage",
+          "slug": "basic-usage",
+          "depth": 3
+        }
+      ],
+      "filepath": "docs/Input.mdx",
+      "status": "development",
+      "menu": "Components",
+      "name": "Input",
+      "route": "/input",
+      "nameChunk": "input",
+      "path": "docs/Input.mdx"
+    }
+  ],
+  "entries": {
+    "Components": {
+      "name": "Components",
+      "children": [
+        {
+          "heading": [
+            {
+              "value": "Button",
+              "slug": "button",
+              "depth": 1
+            },
+            {
+              "value": "Basic usage",
+              "slug": "basic-usage",
+              "depth": 3
+            }
+          ],
+          "filepath": "docs/Button.mdx",
+          "status": "development",
+          "menu": "Components",
+          "name": "Button",
+          "route": "/button",
+          "nameChunk": "button",
+          "path": "docs/Button.mdx"
+        },
+        {
+          "heading": [
+            {
+              "value": "Input",
+              "slug": "input",
+              "depth": 1
+            },
+            {
+              "value": "Basic usage",
+              "slug": "basic-usage",
+              "depth": 3
+            }
+          ],
+          "filepath": "docs/Input.mdx",
+          "status": "development",
+          "menu": "Components",
+          "name": "Input",
+          "route": "/input",
+          "nameChunk": "input",
+          "path": "docs/Input.mdx"
+        }
+      ]
+    },
+    "docs/Introduction.mdx": {
+      "heading": [
+        {
+          "value": "Introduction",
+          "slug": "introduction",
+          "depth": 1
+        }
+      ],
+      "filepath": "docs/Introduction.mdx",
+      "route": "/",
+      "name": "Introduction",
+      "nameChunk": "introduction",
+      "path": "docs/Introduction.mdx"
+    }
+  },
+  "props": {
+    "src\\components\\Button.js": {
+      "description": "",
+      "displayName": "Button",
+      "methods": []
+    },
+    "src\\components\\Input\\index.js": {
+      "description": "",
+      "displayName": "Input",
+      "methods": [],
+      "props": {
+        "placeholder": {
+          "defaultValue": {
+            "value": "\"Ingrese texto aquí\"",
+            "computed": false
+          },
+          "required": false
+        }
+      }
+    }
+  }
+}

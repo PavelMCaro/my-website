@@ -1,0 +1,28 @@
+{
+  "name": "my-website",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "dev": "papyrum dev",
+    "build": "papyrum build",
+    "build:prod": "npx babel src/index.js --out-file dist/index.js --plugins @babel/plugin-transform-modules-commonjs"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-arrow-functions": "^7.12.1",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
+    "@babel/plugin-transform-template-literals": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "styled-components": "4.3.2"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.12.1",
+    "@papyrum/cli": "latest",
+    "babel-plugin-import": "^1.13.3"
+  }
+}
