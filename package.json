@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "papyrum dev",
     "build": "papyrum build",
-    "build:prod": "npx babel src/index.js --out-file dist/index.js --plugins @babel/plugin-transform-modules-commonjs"
+    "build:prod": "npx babel src/index.js --out-file index.js --plugins @babel/plugin-transform-modules-commonjs"
   },
   "dependencies": {
     "@babel/plugin-transform-arrow-functions": "^7.12.1",
